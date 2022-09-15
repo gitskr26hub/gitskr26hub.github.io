@@ -1,0 +1,21 @@
+
+.tech{margin-top: 100px;
+    /* font-family: sans-serif; */
+    font-size: 70px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.img{border-radius: 10%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+
+}
+
+.img:hover{
+    width:110% ;
+    cursor: pointer;
+    border: 2px solid orange;
+    box-shadow: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,54,121,1) 35%, rgba(0,212,255,1) 100%);
+}

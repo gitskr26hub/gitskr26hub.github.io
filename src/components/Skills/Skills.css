@@ -1,0 +1,24 @@
+.main-Skill-Box{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.skills{
+    margin-top: 100px;
+   
+    font-size: 70px;
+    align-items: center;
+    text-align: center;
+   
+}
+.myTech{ font-size: 30px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skill-mainBox{
+    align-items: center;
+    font-size: 25px;
+}
