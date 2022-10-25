@@ -1,0 +1,102 @@
+.Contact-mainBox{
+    width: 70%;
+    margin: auto;
+    padding: 3%;
+}
+
+
+.heading{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+
+}
+.heading>Heading:nth-child(1){
+font-size: 70px;
+}
+
+.contact-detail{
+    padding: 5%;
+}
+
+
+.helloContact{
+    font-size: 100px;
+    color: black;
+}
+
+
+
+/* // for  medium screen */
+@media  all and (min-width:451px) and (max-width:750px)   {
+
+    .Contact-mainBox{
+        width: 90%;
+        margin: auto;
+        padding: 3%;
+    }
+    
+    
+    .heading{
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    
+    }
+    .heading>Heading:nth-child(1){
+    font-size: 70px;
+    }
+    
+    .contact-detail{
+        padding: 5%;
+    }
+    
+    
+    .helloContact{
+        font-size: 100px;
+        color: black;
+    }
+    
+    
+
+}
+
+
+
+
+/* // for small screen */
+@media  all and (min-width:80px) and (max-width:450px)   {
+    .Contact-mainBox{
+        width: 95%;
+        margin: auto;
+        padding: 3%;
+    }
+    
+    .textbox{
+        padding: 4%;
+    }
+    
+    .heading{
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    
+    }
+    .heading>Heading:nth-child(1){
+    font-size: 70px;
+    }
+    
+    .contact-detail{
+        padding: 5%;
+    }
+    
+    
+    .helloContact{
+        font-size: 100px;
+        color: black;
+    }
+    
+    
+
+
+}

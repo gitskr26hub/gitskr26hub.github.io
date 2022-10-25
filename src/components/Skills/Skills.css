@@ -22,3 +22,24 @@
     align-items: center;
     font-size: 25px;
 }
+
+
+
+
+
+/* // for  medium screen */
+@media  all and (min-width:451px) and (max-width:750px)   {
+
+
+
+}
+
+
+
+
+/* // for small screen */
+@media  all and (min-width:80px) and (max-width:450px)   {
+
+
+
+}

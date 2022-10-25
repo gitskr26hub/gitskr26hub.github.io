@@ -1,4 +1,4 @@
-import { Text , Box} from '@chakra-ui/react'
+import { Text , Box,Heading} from '@chakra-ui/react'
 import React, { useState } from 'react'
 import './Skills.css'
 
@@ -12,26 +12,29 @@ const Skills = () => {
   
 
   return (
-    <div className='main-Skill-Box'>
-<div>
-<Text fontWeight="semibold" className='skills'>Skills</Text>
-<Text className='myTech' fontWeight="semibold">My technical level</Text>
-</div>
+    <Box className='main-Skill-Box'>
+<Box>
+<Heading fontWeight="bold" fontSize={['30px','40px','70px']}  className='skills'>Skills</Heading>
+<Heading className='myTech' fontSize={['20px','25px','40px']} fontWeight="bold">My technical level</Heading>
+</Box>
 
-<div className='skill-mainBox'>
-    <div >
-        <Text fontWeight="semibold" style={{alignItems:"center"}}> <CodeIcon/> Frontend Development</Text>
-         <div> </div>
-    </div>
-     <div>
-    <Text fontWeight="semibold"><DataObjectIcon/>  Data Structure And Algorithms</Text>
-    </div>
-    </div>
+<Box className='skill-mainBox'>
+    <Box >
+        <Heading as='h4' size={['sm','md','lg']} 
+        fontWeight="bold"
+         style={{alignItems:"center"}}> <CodeIcon/> Frontend Development</Heading>
+         <Box> </Box>
+    </Box>
+     <Box>
+    <Heading as='h4' size={['sm','md','lg']} 
+    fontWeight="bold"><DataObjectIcon/>  Data Structure And Algorithms</Heading>
+    </Box>
+    </Box>
 
 
 
 
-    </div>
+    </Box>
   )
 }
 

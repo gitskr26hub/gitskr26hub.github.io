@@ -1,11 +1,22 @@
 
 .tech{margin-top: 100px;
-    /* font-family: sans-serif; */
-    font-size: 70px;
+   
+    font-size:70px;
     align-items: center;
     text-align: center;
     margin-bottom: 50px;
+   
 }
+
+.techImg{
+display:grid;
+ grid-template-columns:repeat(4,1fr) ;
+ gap:40px;
+ align-items: center;
+ width: 70%;
+ margin: auto;   
+}
+
 
 .img{border-radius: 10%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -18,4 +29,92 @@
     cursor: pointer;
     border: 2px solid orange;
     box-shadow: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,54,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+
+
+/* //for medium screen  */
+@media  all and (min-width:451px) and (max-width:750px)   {
+.techmain{
+    width: 90%;
+    margin: auto;
+}
+
+    .tech{margin-top:40px;
+   
+       
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+       
+    }
+    
+    .techImg{
+    display:grid;
+     grid-template-columns:repeat(3,1fr) ;
+     gap:20px;
+     align-items: center;
+     width: 90%;
+     margin: auto;   
+    }
+    
+    
+    .img{border-radius: 5%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      width: 70%;
+    
+    }
+    
+    .img:hover{
+        width:110% ;
+        cursor: pointer;
+        border: 2px solid orange;
+        box-shadow: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,54,121,1) 35%, rgba(0,212,255,1) 100%);
+    }
+    
+
+}
+
+
+
+/* // for small medium screen */
+@media  all and (min-width:80px) and (max-width:450px){
+    .techmain{
+        width: 98%;
+        margin: auto;
+    }
+    
+        .tech{margin-top:40px;
+       
+           
+            align-items: center;
+            text-align: center;
+            margin-bottom: 40px;
+           
+        }
+        
+        .techImg{
+        display:grid;
+         grid-template-columns:repeat(2,1fr) ;
+         gap:20px;
+         align-items: center;
+         width: 90%;
+         margin: auto;   
+        }
+        
+        
+        .img{border-radius: 5%;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          width: 80%;
+        
+        }
+        
+        .img:hover{
+            width:110% ;
+            cursor: pointer;
+            border: 2px solid orange;
+            box-shadow: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,54,121,1) 35%, rgba(0,212,255,1) 100%);
+        }
+        
 }
