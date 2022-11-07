@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.01234445.css",
-    "main.js": "/static/js/main.2dc13a77.js",
+    "main.css": "/static/css/main.8ed1d6d0.css",
+    "main.js": "/static/js/main.a8f4918b.js",
     "static/js/787.0d74c73b.chunk.js": "/static/js/787.0d74c73b.chunk.js",
     "static/media/sugam.jpg": "/static/media/sugam.be42a9407f216482d6ba.jpg",
-    "static/media/Sugam_kumar_resume.pdf": "/static/media/Sugam_kumar_resume.474ada3d2669e142b219.pdf",
+    "static/media/Sugam_kumar_Resume.pdf": "/static/media/Sugam_kumar_Resume.474ada3d2669e142b219.pdf",
     "static/media/rentomojo1.JPG": "/static/media/rentomojo1.9f55254982fe87bb1d4c.JPG",
     "static/media/zee3.JPG": "/static/media/zee3.6a0f87d0ca3fb3d0143c.JPG",
     "static/media/zee1.JPG": "/static/media/zee1.2cb59ca529ad7b6f0c1d.JPG",
@@ -13,12 +13,12 @@
     "static/media/farfetch2.JPG": "/static/media/farfetch2.336b62f93abd74ea4dd9.JPG",
     "static/media/farfetch1.JPG": "/static/media/farfetch1.39845b76c4fc95db4d82.JPG",
     "index.html": "/index.html",
-    "main.01234445.css.map": "/static/css/main.01234445.css.map",
-    "main.2dc13a77.js.map": "/static/js/main.2dc13a77.js.map",
+    "main.8ed1d6d0.css.map": "/static/css/main.8ed1d6d0.css.map",
+    "main.a8f4918b.js.map": "/static/js/main.a8f4918b.js.map",
     "787.0d74c73b.chunk.js.map": "/static/js/787.0d74c73b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01234445.css",
-    "static/js/main.2dc13a77.js"
+    "static/css/main.8ed1d6d0.css",
+    "static/js/main.a8f4918b.js"
   ]
 }
