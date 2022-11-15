@@ -18,7 +18,7 @@ import Qualification from "./components/Qualification/Qualification";
 import { ChakraProvider } from "@chakra-ui/react";
 import { Github } from "./components/GithubCalender/GithubCalender";
 import GithubCalender from "./components/GithubCalender/GithubCalender";
-
+import Resume from "../src/components/Resume/Sugam_kumar_Resume.pdf"
 
 //start doing code from here ----->
 
@@ -27,6 +27,13 @@ function App() {
 
   const { colorMode, toggleColorMode } = useColorMode();
   const isDark = colorMode === "dark";
+
+  const openInNewTab = url => {
+    window.open(url, '_blank');
+  };
+
+
+
 
   return (
 
@@ -39,14 +46,14 @@ function App() {
           <ul>
             <li>
               <Link activeClass="active" smooth spy to="about">
-                ABOUT
+                ABOUT ME
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link activeClass="active" smooth spy to="techlearn">
                TECH LEARN
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link activeClass="active" smooth spy to="skills">
               SKILLS
@@ -55,25 +62,37 @@ function App() {
 
 
 
-            <li>
+            {/* <li>
               <Link activeClass="active" smooth spy to="qualification">
               QUALIFICATION
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link activeClass="active" smooth spy to="portfolio">
-               PORTFOLIO
+              PROJECTS
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link activeClass="active" smooth spy to="github">
-              MY GITHUB 
+              GITHUB 
               </Link>
-            </li>
+            </li> */}
             <li>
             <Link activeClass="active" smooth spy to="contact">
-                CONTACT ME
+                CONTACT
               </Link>
+            </li>
+            <li>
+
+            <Link activeClass="active" smooth spy to="about" 
+            onClick={() => openInNewTab('https://drive.google.com/file/d/1tfdvtXfI_ECHZdVdF2ZR0K3OvmmaEYl_/view?usp=share_link')} >
+            {/* <a href={Resume} download>  
+               <button value="download"> */}
+                RESUME
+                {/* </button> 
+              </a> */}
+              </Link>
+
             </li>
           </ul>
         </nav>
@@ -102,9 +121,9 @@ function App() {
    
 
       <section id="about"><About/></section>
-      <section id="techlearn"><Technologies/> </section>
+      {/* <section id="techlearn"><Technologies/> </section> */}
       <section id="skills"><Skills/> </section>
-      <section id="qualification"><Qualification/> </section>
+      {/* <section id="qualification"><Qualification/> </section> */}
       <section id="portfolio"><Portfolio/></section>
       <section id="github"><GithubCalender/></section>
       <section id="contact"><Contact/></section>

@@ -6,7 +6,7 @@ import { useMediaQuery } from '@chakra-ui/media-query';
 import React from 'react'
 import sugamImg from '../Images/sugam.jpg'
 import './About.css'
-import Resume from './Resume/Sugam_kumar_resume.pdf'
+import Resume from './Resume/Sugam_kumar_Resume.pdf'
 
 function About() {
 
@@ -14,28 +14,31 @@ function About() {
     const isDark = colorMode === "dark";
 
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
+    const openInNewTab = url => {
+        window.open(url, '_blank');
+      };
+
+
 
     return (<Box className='aboutmainBox'>
         <Box className='stackbox'  >
         <Box  className="textbox" w={['100%','100%','70%']}>
-<Text fontSize={["2xl","3xl","4xl"]}  fontWeight="semibold">Hi, I am</Text>
-<Text fontSize={["3xl","4xl","5xl"]} fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text' >Sugam Kumar</Text>
-<Text fontSize={["3xl","4xl","5xl"]} fontWeight="bold" bgGradient="linear(to-r,purple.500, blue.400, cyan.400, )" bgClip='text' >Full Stack Web Developer</Text>
-<Text fontSize={["10px","12px","12px"]} color={isDark ? "gray.200" : "gray.500"}>
-I am Sugam Kumar from Uttar Pradesh, currently studying Full stack web developer course from "MASAI SCHOOL". 
-I am very keen to 
-learn new technologies and use them to either create 
-something useful or improve the projects. </Text>
+<Text fontSize={["2xl","3xl","5xl"]}  fontWeight="semibold">Hi, I am</Text>
+<Text fontSize={["3xl","4xl","6xl"]} fontWeight="bold" bgGradient="linear(to-r, cyan.300, blue.500, purple.700)" bgClip='text' >Sugam Kumar</Text>
+<Text fontSize={["3xl","4xl","6xl"]} fontWeight="bold" bgGradient="linear(to-r,purple.500, blue.400, cyan.400, )" bgClip='text' >Full Stack Web Developer</Text>
+<Text fontSize={["14px","14px","20px"]} color={isDark ? "white" : "#454545"}>
+Self-Motivated and Aspiring Full Stack Web Developer with expertise in creating user-friendly designs & architecture, and ready-to-use websites. Looking for an entry-level position in the web development field to utilize knowledge, improve skills, and for growth.</Text>
 <a href={Resume} download>
-<Button mt={8}  size={['xs','sm','md','lg']} colorScheme="blue" value="download" >
+<Button mt={8} class="button-29" role="button" size={['xs','sm','md','lg']} colorScheme="blue" value="download" className='downloadbutton'
+onClick={() => openInNewTab('https://drive.google.com/file/d/1tfdvtXfI_ECHZdVdF2ZR0K3OvmmaEYl_/view?usp=share_link')} >
             Download Resume</Button></a>
-
+           
                 </Box>
                 <Center className="imgbox">
     <Image cla alignSelf="center" className="sugamimg"
                      borderRadius='full'
     backgroundColor="transparent" boxShadow="lg" 
-boxSize={["100px","250px","300px"]} src={sugamImg} />
+boxSize={["200px","250px","300px"]} src={sugamImg} />
  </Center>
             </Box>
 

@@ -10,14 +10,16 @@
 }
 .github-name{
     text-align: center;
+    margin-bottom: 20px;
 }
 
 
 
 .cards{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-justify-content:space-evenly;
+    /* border: 1px solid red; */
+display: flex;
+
+justify-content:space-between;
 }
 
 .githubcalender{

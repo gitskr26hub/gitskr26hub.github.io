@@ -12,18 +12,26 @@ const Qualification = () => {
   </Box>
 
   <Box className='education'>
-   <Stack className='stack'>
+   {/* <Stack className='stack'>
    <Heading as='h4' size={['sm','md','lg']}>Matriculation(Class X)</Heading>
   
   <Heading as='h5' size='sm'>
     <CalendarMonthIcon/> <i>2012</i>
   </Heading>
-   </Stack>
-   <Stack className='stack'>
+   </Stack> */}
+   {/* <Stack className='stack'>
    <Heading as='h4' size={['sm','md','lg']}>Intermediate (Class Xll)</Heading>
   
   <Heading as='h5' size={['xs','sm','md']}>
     <CalendarMonthIcon/><i>2014</i>
+  </Heading>
+   </Stack> */}
+   
+   <Stack className='stack'>
+   <Heading as='h4' size={['sm','md','lg']}>Full Stack Web Developer (Masai School)</Heading>
+  
+  <Heading as='h5' size={['xs','sm','md']}>
+    <CalendarMonthIcon/> <i>2022-Present</i>
   </Heading>
    </Stack>
    <Stack className='stack'>
@@ -33,13 +41,26 @@ const Qualification = () => {
     <CalendarMonthIcon/> <i>2021</i>
   </Heading>
    </Stack>
-   <Stack className='stack'>
-   <Heading as='h4' size={['sm','md','lg']}>Full Stack Web Developer-Intern (Masai School)</Heading>
-  
-  <Heading as='h5' size={['xs','sm','md']}>
-    <CalendarMonthIcon/> <i>2022-Present</i>
-  </Heading>
-   </Stack>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </Box>
 
 
