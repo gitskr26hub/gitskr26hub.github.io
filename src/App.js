@@ -84,15 +84,17 @@ function App() {
             </li>
             <li>
 
-            <Link activeClass="active" smooth spy to="about" 
-            onClick={() => openInNewTab('https://drive.google.com/file/d/1tfdvtXfI_ECHZdVdF2ZR0K3OvmmaEYl_/view?usp=share_link')} >
-            {/* <a href={Resume} download>  
-               <button value="download"> */}
-                RESUME
-                {/* </button> 
-              </a> */}
-              </Link>
+          
+            {/* <Link activeClass="active" smooth spy to="about" > */}
+             
+             <a href={Resume} download onClick={() => openInNewTab('https://drive.google.com/file/d/1tfdvtXfI_ECHZdVdF2ZR0K3OvmmaEYl_/view?usp=share_link')}>  
 
+               
+                RESUME 
+                {/* </button> 
+              */}
+              {/* </Link> */}
+              </a>
             </li>
           </ul>
         </nav>

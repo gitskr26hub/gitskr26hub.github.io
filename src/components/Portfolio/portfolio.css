@@ -7,7 +7,7 @@
   margin: auto;
 }
 .project-img{
-  border: 0.5px solid rgb(190, 235, 235);
+  border: 0.5px solid rgb(188, 219, 219);
   
 }
 .project-img:hover{
@@ -48,7 +48,7 @@ padding: 2%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap:4%;
-   margin-bottom: 60%;
+   margin-bottom: 90%;
   }
   .card:hover{
     margin-top: 5%;

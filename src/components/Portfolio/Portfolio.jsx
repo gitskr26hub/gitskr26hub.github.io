@@ -13,6 +13,9 @@ import rentomojo1 from "./ProjectImages/rentomojo1.JPG";
 import { AiFillGithub, AiOutlineDesktop } from "react-icons/ai";
 import licious1 from "./ProjectImages/licious1.PNG"
 // import { Link } from "react-router-dom";
+import { useColorMode } from '@chakra-ui/color-mode'
+
+
 
 const zeeData = [zee1, zee2, zee3];
 const farData = [far1, far2, far3];
@@ -22,6 +25,9 @@ export const Portfolio = () => {
 
   const zeelen = zeeData.length;
   const farlen = farData.length;
+
+  const { colorMode } = useColorMode();
+    const isDark = colorMode === "dark";
 
   const Card = ({
     img,
@@ -36,7 +42,7 @@ export const Portfolio = () => {
   }) => {
     return (
       <>
-        <Box className="card">
+        <Box className="card" color={isDark ? "black" : "#454545"}>
           <Box className="img-box">
             <Image
               className="project-img"

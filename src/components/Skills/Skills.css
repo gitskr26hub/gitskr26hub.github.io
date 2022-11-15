@@ -61,7 +61,7 @@ height: 80%;
 
 
 /* // for  medium screen */
-@media  all and (min-width:451px) and (max-width:750px)   {
+@media  all and (min-width:451px) and (max-width:900px)   {
     .main-Skill-Box{
         width: 90%;
         margin: auto;
@@ -79,6 +79,9 @@ height: 80%;
             grid-template-columns: repeat(4,1fr);
             gap:5%;
             margin-bottom: 16%;   
+        }
+        .myTech{
+            margin-top: 5%;
         }
 }
 
@@ -103,6 +106,7 @@ height: 80%;
         }
 
         .soft-stacks{
+           
             display: grid;
             font-size: smaller;
             
@@ -110,4 +114,5 @@ height: 80%;
             gap:8%;
             margin-bottom: 25%;   
         }
+       
 }

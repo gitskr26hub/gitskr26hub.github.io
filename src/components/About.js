@@ -26,11 +26,13 @@ function About() {
 <Text fontSize={["2xl","3xl","5xl"]}  fontWeight="semibold">Hi, I am</Text>
 <Text fontSize={["3xl","4xl","6xl"]} fontWeight="bold" bgGradient="linear(to-r, cyan.300, blue.500, purple.700)" bgClip='text' >Sugam Kumar</Text>
 <Text fontSize={["3xl","4xl","6xl"]} fontWeight="bold" bgGradient="linear(to-r,purple.500, blue.400, cyan.400, )" bgClip='text' >Full Stack Web Developer</Text>
-<Text fontSize={["14px","14px","20px"]} color={isDark ? "white" : "#454545"}>
+<Text fontSize={["14px","14px","20px"]} style={{textAlign:"justify",marginBottom:"2%"}} width={["100%","100%","100%"]} 
+color={isDark ? "white" : "#454545"}>
 Self-Motivated and Aspiring Full Stack Web Developer with expertise in creating user-friendly designs & architecture, and ready-to-use websites. Looking for an entry-level position in the web development field to utilize knowledge, improve skills, and for growth.</Text>
 <a href={Resume} download>
 <Button mt={8} class="button-29" role="button" size={['xs','sm','md','lg']} colorScheme="blue" value="download" className='downloadbutton'
-onClick={() => openInNewTab('https://drive.google.com/file/d/1tfdvtXfI_ECHZdVdF2ZR0K3OvmmaEYl_/view?usp=share_link')} >
+onClick={() =>
+ openInNewTab('https://drive.google.com/file/d/1tfdvtXfI_ECHZdVdF2ZR0K3OvmmaEYl_/view?usp=share_link')} >
             Download Resume</Button></a>
            
                 </Box>
