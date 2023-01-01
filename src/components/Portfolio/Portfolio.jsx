@@ -16,19 +16,15 @@ import licious1 from "./ProjectImages/licious1.PNG"
 import { useColorMode } from '@chakra-ui/color-mode'
 
 
-
 const zeeData = [zee1, zee2, zee3];
 const farData = [far1, far2, far3];
 
 export const Portfolio = () => {
-  const [zee, setZee] = useState(zee1);
 
-  const zeelen = zeeData.length;
-  const farlen = farData.length;
-
-  const { colorMode } = useColorMode();
+   const { colorMode } = useColorMode();
     const isDark = colorMode === "dark";
 
+   
   const Card = ({
     img,
     projectName,
@@ -42,9 +38,8 @@ export const Portfolio = () => {
   }) => {
     return (
       <>
-        <Box className="card" color={isDark ? "black" : "#454545"}>
-          <Box className="img-box">
-            <Image
+        <Box className="card" color={isDark ? "black" : "black"}>
+          <Box className="img-box"><Image
               className="project-img"
               style={{ borderRadius: "2%" }}
               src={img}
@@ -156,6 +151,22 @@ export const Portfolio = () => {
         Projects
       </Heading>
       <Box className="project-main">
+         {/* cart start form here */}
+         <Card
+          img={licious1}
+          projectName="D'licious Clone"
+          desc=" A Website that provides Food services for non-vegetarians."
+          features=" Home Page | Login | Carousels | Product Pages | Sorting | Add to Cart | Product Details | Responsive"
+          techStacks=" React-Js | Redux | Chakra UI | Express | mongoDB | google-maps-api | npm-package"
+          area="Developed the Navbar and Product details page"
+          collaboration="Collaborative team project completed in 5 days by a
+        team of 5 members."
+          gitHub="https://github.com/Prathamesh61/coherent-laborer-2044.git"
+          Live="https://frontend-pi-lovat.vercel.app/"
+        />
+
+        {/* cart end here */}
+
         {/* cart start form here */}
         <Card
           img={zee1}
@@ -204,21 +215,9 @@ export const Portfolio = () => {
 
         {/* cart end here */}
 
-         {/* cart start form here */}
-         <Card
-          img={licious1}
-          projectName="D'licious Clone"
-          desc=" A Website that provides Food services for non-vegetarians."
-          features=" Home Page | Login | Carousels | Product Pages | Sorting | Add to Cart | Product Details | Responsive"
-          techStacks=" React-Js | Redux | Chakra UI | Express | mongoDB | google-maps-api | npm-package"
-          area="Developed the Navbar and Product details page"
-          collaboration="Collaborative team project completed in 5 days by a
-        team of 5 members."
-          gitHub="https://github.com/Prathamesh61/coherent-laborer-2044.git"
-          Live="https://frontend-pi-lovat.vercel.app/"
-        />
 
-        {/* cart end here */}
+
+        
       </Box>
     </Box>
   );

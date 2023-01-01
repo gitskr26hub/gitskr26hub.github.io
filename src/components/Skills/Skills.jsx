@@ -46,14 +46,8 @@ const Skills = () => {
   <Box className='image-box'><Image src='https://1.bp.blogspot.com/-sqAjIvOtpXI/XYoCmqOyMwI/AAAAAAAAJig/CowR8wgEauEs-RXN2IPmLYkC7NHoHuA3gCLcBGAsYHQ/s320/node-js-logo.png' /></Box>
   <Box style={{textAlign:"center",fontWeight:"700"}}>NodeJS  </Box>
 </Box>
-<Box className='tech-Box'>
-  <Box className='image-box'><Image src='https://seeklogo.com/images/N/netlify-logo-758722CDF4-seeklogo.com.png' /></Box>
-  <Box style={{textAlign:"center",fontWeight:"700"}}>NETLIFY  </Box>
-</Box>
-<Box className='tech-Box'>
-  <Box className='image-box'><Image src='https://daffyta.github.io/assets/img/icono/git.png' /></Box>
-  <Box style={{textAlign:"center",fontWeight:"700"}}>GIT  </Box>
-</Box>
+
+
 <Box className='tech-Box'>
   <Box className='image-box'><Image  style={{borderRadius:"10%"}}  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRwIVdKNKpXf59pfwtVoAS2KGkDoY7PVXbKg&usqp=CAU' /></Box>
   <Box style={{textAlign:"center",fontWeight:"700"}}>mongoDB  </Box>
@@ -75,6 +69,36 @@ const Skills = () => {
 
 
 </Box>
+
+
+
+<Heading className='myTech' fontSize={['20px','25px','40px']} fontWeight="bold">Tools</Heading>
+<Box className='soft-stacks'>
+
+<Box className='tech-Box'>
+  <Box className='image-box'><Image style={{borderRadius:"12%"}} src='https://daffyta.github.io/assets/img/icono/git.png' /></Box>
+  <Box style={{textAlign:"center",fontWeight:"700"}}>GIT  </Box>
+</Box>
+
+<Box className='tech-Box'>
+  <Box className='image-box'><Image style={{borderRadius:"12%"}} src='https://seeklogo.com/images/N/netlify-logo-758722CDF4-seeklogo.com.png' /></Box>
+  <Box style={{textAlign:"center",fontWeight:"700"}}>NETLIFY  </Box>
+</Box>
+
+<Box className='tech-Box'>
+  <Box className='image-box'><Image style={{borderRadius:"12%"}} src="https://cdn.icon-icons.com/icons2/3053/PNG/512/microsoft_visual_studio_code_macos_bigsur_icon_189957.png" /></Box>
+  <Box style={{textAlign:"center",fontWeight:"700"}}>VS Code </Box>
+</Box>
+<Box className='tech-Box'>
+  <Box className='image-box'><Image style={{borderRadius:"12%"}} src="https://static-00.iconduck.com/assets.00/npm-icon-512x512-qtfdrf37.png" /></Box>
+  <Box style={{textAlign:"center",fontWeight:"700"}}>npm </Box>
+</Box>
+<Box className='tech-Box'>
+  <Box className='image-box'><Image style={{borderRadius:"12%"}} src="https://www.svgrepo.com/show/354512/vercel.svg" /></Box>
+  <Box style={{textAlign:"center",fontWeight:"700"}}>Vercel</Box>
+</Box>
+</Box>
+
 
 <Heading className='myTech' fontSize={['20px','25px','40px']} fontWeight="bold">My Soft Skills</Heading>
 <Box className='soft-stacks'>

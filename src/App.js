@@ -107,12 +107,12 @@ function App() {
  
 
   <Spacer></Spacer>
-<a  href="https://www.linkedin.com/in/sugam-kumar-6b07041bb" >  
+<a  href="https://www.linkedin.com/in/sugam-kumar-6b07041bb" target="_blank">  
 <IconButton icon={<FaLinkedin />} isRound='true' onClick={toggleColorMode}></IconButton></a>
-<a href='https://www.instagram.com/dkr.9987/'>
+<a href='https://www.instagram.com/dkr.9987/' target="_blank">
   <IconButton ml={2} icon={<FaInstagram />} isRound='true' onClick={toggleColorMode}></IconButton></a>
 
-  <a  href="https://github.com/gitskr26hub" > 
+  <a  href="https://github.com/gitskr26hub" target="_blank"> 
      <IconButton ml={2} icon={<FaGithub />} isRound='true' onClick={toggleColorMode}></IconButton></a>
   <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
 </Flex>
