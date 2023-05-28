@@ -162,7 +162,7 @@ export const Portfolio = () => {
           collaboration="Collaborative team project completed in 5 days by a
         team of 5 members."
           gitHub="https://github.com/Prathamesh61/coherent-laborer-2044.git"
-          Live="https://frontend-pi-lovat.vercel.app/"
+          Live="https://d-licious.vercel.app/"
         />
 
         {/* cart end here */}
